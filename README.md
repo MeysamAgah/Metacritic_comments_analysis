@@ -32,3 +32,10 @@ Project involves multiple steps:<br>
 
 <br><br>
 4. by counting number of occurance of each aspect we create two diagrams representing aspects and number of ocurances
+
+## Goals
+1. Becoming able to detect pros and cons of a video game<br><br>
+
+2. Detecting aspects of video game according to genre<br><br>
+
+3. Recommender System
