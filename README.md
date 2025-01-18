@@ -6,7 +6,7 @@ Project involves multiple steps:<br>
 | id  | Game  |Reviewer  |Reviewer type | Date |  Review  | Score |
 | ------------- | ------------- | ------------- |------------- | ------------- | ------------- | ------------- |
 | review id  | name of game  | name of user or critic  | user or critic  |date review submitted  | text of review  | 1-10  |
-| 569541  | Makimat  |user  | Dec 17, 2024  | After 550 hours i can say its the best videogame ever made. ️️️️️ So many ways to play it. | 10  |
+| 569541  | Elden Ring  | Makimat  |user  | Dec 17, 2024  | After 550 hours i can say its the best videogame ever made. ️️️️️ So many ways to play it. | 10  |
 <br>
 2. use a pre-train model to extract aspects of each comment result in another dataset:<br><br>
 
