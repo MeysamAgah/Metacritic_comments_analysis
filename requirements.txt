@@ -4,4 +4,4 @@ langdetect==1.0.9
 transformers==4.47.1
 matplotlib==3.10.0
 sentencepiece
-torch==2.5.1
+torch==2.5.1+cu124
