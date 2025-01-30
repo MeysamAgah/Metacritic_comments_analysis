@@ -11,10 +11,10 @@ def find_aspects(text, aspects):
     contains positive and negative sentimensts of the aspects in string and all in dictionary
   """
   # Load the ABSA model
-  ##model_name = "yangheng/deberta-v3-base-absa-v1.1"
-  ##tokenizer = AutoTokenizer.from_pretrained(model_name)
-  ##model = AutoModelForSequenceClassification.from_pretrained(model_name)
-  ##classifier = pipeline("text-classification", model=model, tokenizer=tokenizer)
+  model_name = "yangheng/deberta-v3-base-absa-v1.1"
+  tokenizer = AutoTokenizer.from_pretrained(model_name)
+  model = AutoModelForSequenceClassification.from_pretrained(model_name)
+  classifier = pipeline("text-classification", model=model, tokenizer=tokenizer)
 
   positive_aspects = []
   negative_aspects = []
