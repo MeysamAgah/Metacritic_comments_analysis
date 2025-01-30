@@ -1,4 +1,9 @@
 # imports
+## Import functions from other Python files
+from scraper import web_driver, scrape_reviews
+from clean_data import clean_data
+from find_aspects import find_aspects
+
 ## web scraping
 from selenium import webdriver
 from selenium.webdriver.common.by import By
