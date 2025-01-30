@@ -5,3 +5,4 @@ transformers==4.47.1
 matplotlib==3.10.0
 sentencepiece
 torch==2.5.1
+chromedriver-autoinstaller==0.4.0
