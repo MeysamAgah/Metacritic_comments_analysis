@@ -1,32 +1,5 @@
 # imports
-## web scraping
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
-## time
-import time
-from datetime import datetime
-
-## dealing with dataframe
-import pandas as pd
-from langdetect import detect #detect language
-
-## avoid viewing warning (optional)
-import warnings
-warnings.filterwarnings('ignore')
-
-## pre-trained model
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from transformers import pipeline
-
-import matplotlib.pyplot as plt
-from collections import defaultdict
-
-from scraper import web_driver, scrape_reviews
-from clean_data import clean_data
-from find_aspects import find_aspects
 from comment_analysis import comment_analysis
 
 if __name__ == "__main__":
