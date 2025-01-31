@@ -28,7 +28,7 @@ iface = gr.Interface(
         gr.Slider(50, 500, step=50, label="Number of Comments", value=50),  # Number of Comments
         gr.Textbox(label="User Agent", value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"),  # User Agent
     ],
-    outputs=gr.Image(type="file"),  # Output as an image
+    outputs=gr.Image(type="filepath"),  # Output as an image
 )
 
 @app.get("/")
