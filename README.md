@@ -14,3 +14,7 @@ Project involves multiple steps:<br>
 - filtering reviews to one or multiple languages
 3. finding aspects of each review for aspect based sentiment analysis using PyABSA pre-trained model according to pre-determined aspects as inputs.
 4. and finally present a diagram to show positive and negative sentiments for each defined aspect.
+
+--------------------------------------------------------------------------------------------------------------------------------
+<br>
+To run and analysis for any desired video game download MetaCritic_Comments_Analysis_Run.ipynb jupyter notebook and run it on google colab.
