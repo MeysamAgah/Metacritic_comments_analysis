@@ -1,6 +1,6 @@
-selenium==4.28.1
-pandas==2.2.2
-langdetect==1.0.9
-transformers==4.47.1
-matplotlib==3.10.0
+selenium
+pandas
+langdetect
+transformers
+matplotlib
 sentencepiece
